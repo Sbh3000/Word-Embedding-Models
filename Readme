@@ -1,0 +1,7 @@
+# Word Embedding Models
+
+This project includes two types of models for generating word embeddings: Frequency Based (Model1) and Prediction Based (Model2). 
+
+Frequency Based model : embeddings are created by using a co-occurrence matrix of a given corpus and applying Singular Value Decomposition. 
+
+Prediction Based model: word vectors are trained using the word2vec algorithm, and Negative Sampling is applied to reduce computational costs and approximate the process.
